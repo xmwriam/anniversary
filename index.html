@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Our 3 Years, Wrapped</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=DM+Sans:wght@400..700&display=swap"><style>
+:root{--bg:#e9e4f5;--fg:#111;--d:"Bricolage Grotesque","DM Sans",system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d0b14;--fg:#fff}}
+:root[data-theme="dark"]{--bg:#0d0b14;--fg:#fff}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--fg);font:16px/1.4 "DM Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;justify-content:center;align-items:center;overflow:hidden}
+#app{position:relative;width:100%;max-width:440px;height:100%;overflow:hidden;user-select:none;-webkit-user-select:none;background:#0d0b14}
+@media(min-width:600px){#app{height:min(100%,860px);border-radius:32px;box-shadow:0 40px 100px #0008}}
+#app::after{content:"";position:absolute;inset:0;z-index:6;pointer-events:none;opacity:.16;mix-blend-mode:overlay;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+#bar{position:absolute;top:14px;left:16px;right:16px;height:5px;background:#ffffff40;border-radius:5px;z-index:7;overflow:hidden;box-shadow:0 0 10px #0003}
+#bar i{display:block;height:100%;width:0;background:#fff;border-radius:5px;transition:width .35s}
+.s{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:68px 24px 44px;gap:18px;color:var(--t);overflow:hidden;background:radial-gradient(90% 60% at 0% 0%,var(--b),#0000 70%),radial-gradient(90% 60% at 100% 100%,var(--c),#0000 70%),var(--a)}
+.s.on{display:flex;animation:in .4s}
+.s::before,.s::after{content:"";position:absolute;width:75%;aspect-ratio:1;border-radius:50%;filter:blur(55px);opacity:.5;pointer-events:none;animation:drift 14s ease-in-out infinite alternate}
+.s::before{left:-25%;top:-10%;background:var(--c)}.s::after{right:-25%;bottom:-12%;background:var(--b);animation-delay:-7s}
+.s>*{position:relative;z-index:1}
+.s.on>*:not(.cf){animation:up .7s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--n,0)*90ms)}
+@keyframes in{from{opacity:0}}@keyframes up{from{opacity:0;transform:translateY(26px) scale(.98)}}@keyframes drift{to{transform:translate(14%,10%) scale(1.15)}}@keyframes grow{from{transform:scaleY(0)}}@keyframes spin{to{transform:rotate(360deg)}}@keyframes pg{from{transform:scaleX(0)}}@keyframes sh{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}@keyframes fall{to{transform:translateY(110vh) rotate(var(--r))}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.k{display:inline-block;font:600 14px/1 "DM Sans",system-ui,sans-serif;padding:9px 15px;border-radius:99px;background:color-mix(in srgb,var(--t) 14%,transparent);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.big{font:800 clamp(56px,21vw,110px)/.88 var(--d);letter-spacing:-.045em;color:var(--x);font-variant-numeric:tabular-nums;max-width:100%;overflow-wrap:anywhere}
+.big.md{font-size:clamp(44px,15vw,78px)}.big.sm{font-size:clamp(34px,10.5vw,56px);line-height:.95}
+.big.hero{font-size:clamp(54px,18vw,92px);background:linear-gradient(110deg,var(--x),var(--t) 75%);-webkit-background-clip:text;background-clip:text;color:transparent}
+.mid{font:800 clamp(24px,7vw,32px)/1.12 var(--d);letter-spacing:-.02em}
+.c{font:500 18px/1.45 "DM Sans",system-ui,sans-serif;max-width:330px;opacity:.92}
+.hint{font-size:14px;opacity:.7}
+.g{width:100%;display:flex;flex-direction:column;align-items:center;gap:10px}
+.o{display:flex;align-items:center;justify-content:center;gap:12px;width:100%;max-width:330px;padding:15px 18px;border-radius:18px;border:1.5px solid color-mix(in srgb,var(--t) 30%,transparent);background:color-mix(in srgb,var(--t) 12%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);color:var(--t);font:700 17px "DM Sans",system-ui,sans-serif;cursor:pointer;transition:transform .15s,background .2s}
+.o:has(b){justify-content:flex-start;text-align:left}
+.o:hover{transform:translateY(-2px)}.o:active{transform:scale(.98)}
+.o b{display:grid;place-items:center;flex:none;width:30px;height:30px;border-radius:10px;background:var(--x);color:var(--a);font:800 14px var(--d)}
+.o.ok{background:#1db954;border-color:#1db954;color:#fff}.o.ok::after{content:"✓";margin-left:auto}
+.o.no{background:#e5384c;border-color:#e5384c;color:#fff;animation:sh .4s}.o.no::after{content:"✕";margin-left:auto}
+button:focus-visible,a:focus-visible{outline:3px solid var(--x);outline-offset:3px}
+.ph{width:min(240px,60vw);aspect-ratio:1;border-radius:22px;border:2px dashed color-mix(in srgb,var(--t) 40%,transparent);display:flex;align-items:center;justify-content:center;font-weight:600;background:color-mix(in srgb,var(--t) 10%,transparent) center/cover;box-shadow:0 20px 50px #0004}
+.vin{position:relative;width:min(230px,58vw);margin-right:18%}.vin .ph{width:100%;position:relative;z-index:1}
+.vin::before{content:"";position:absolute;inset:4% -22% 4% 22%;border-radius:50%;background:radial-gradient(circle,var(--x) 0 14%,#111 15% 17%,#0000 18%),repeating-radial-gradient(#0d0d0d 0 2px,#1c1c1c 3px 4px);animation:spin 7s linear infinite;box-shadow:0 10px 30px #0006}
+.pb{width:100%;max-width:300px;height:4px;border-radius:4px;background:color-mix(in srgb,var(--t) 25%,transparent);overflow:hidden}.pb i{display:block;height:100%;background:var(--t);transform-origin:left;animation:pg 30s linear infinite}
+.sl{text-decoration:none;color:#fff;background:#1db954;border-radius:99px;padding:13px 26px;font:700 16px "DM Sans",system-ui,sans-serif;box-shadow:0 8px 24px #1db95466}
+.ch{display:flex;align-items:flex-end;gap:3px;height:200px;width:100%;max-width:350px;padding:18px 14px 14px;border-radius:24px;box-sizing:border-box;background:color-mix(in srgb,var(--t) 10%,transparent);backdrop-filter:blur(10px)}
+.ch i{flex:1;border-radius:4px 4px 2px 2px;background:linear-gradient(to top,color-mix(in srgb,var(--x) 45%,transparent),color-mix(in srgb,var(--x) 85%,transparent));transform-origin:bottom;animation:grow .8s calc(var(--i)*25ms) cubic-bezier(.2,.8,.2,1) both}
+.ch i.pk{background:var(--x);box-shadow:0 0 18px var(--x)}
+.w span{display:inline-block;margin:4px 5px;padding:.1em .55em;border-radius:99px;background:color-mix(in srgb,var(--t) 14%,transparent);font-family:var(--d);font-weight:800;letter-spacing:-.02em}
+.w span:nth-child(-n+2){background:var(--x);color:var(--a)}
+.t{display:flex;gap:8px;justify-content:center;width:100%;max-width:350px}
+.t>div{flex:1;min-width:0;max-width:66px;padding:14px 0 10px;border-radius:18px;background:color-mix(in srgb,var(--t) 13%,transparent);backdrop-filter:blur(10px);border:1px solid color-mix(in srgb,var(--t) 20%,transparent)}
+.t b{display:block;font:800 30px/1 var(--d);color:var(--x);font-variant-numeric:tabular-nums}.t small{font-size:11px;opacity:.8}
+.sp{display:flex;width:100%;max-width:330px;height:64px;border-radius:20px;overflow:hidden;font-weight:800;font-size:14px;line-height:1.2;color:#1b0b2e}.sp div{display:flex;align-items:center;justify-content:center;text-align:center}
+.scr{position:relative;width:300px;height:110px;border-radius:20px;box-shadow:0 12px 40px #0005;background:color-mix(in srgb,var(--t) 12%,transparent)}
+.scr .n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font:800 52px var(--d);color:var(--x);letter-spacing:-.04em}
+.scr canvas{position:absolute;inset:0;touch-action:none;transition:opacity .5s;border-radius:20px;width:300px;height:110px}
+.pt{width:0;height:0;border:14px solid #0000;border-top:28px solid var(--x);border-bottom:0;margin-bottom:-16px;z-index:3;filter:drop-shadow(0 4px 6px #0006)}
+.wr{position:relative;border-radius:50%;box-shadow:0 0 0 8px var(--t),0 24px 60px #0007}
+.wr::after{content:"";position:absolute;left:50%;top:50%;width:46px;height:46px;margin:-23px;border-radius:50%;background:var(--t);box-shadow:inset 0 0 0 8px var(--x)}
+.wh{display:block;width:280px;height:280px;border-radius:50%;transition:transform 4.5s cubic-bezier(.12,.75,.1,1)}
+.cf{position:absolute;top:-30px;font-style:normal;pointer-events:none;animation:fall 3s var(--w) ease-in both}
+.mid{overflow-wrap:anywhere}#mb{position:absolute;top:30px;right:14px;z-index:8;width:40px;height:40px;border-radius:50%;border:0;background:#0005;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:#fff;font-size:18px;cursor:pointer}#mb:focus-visible{outline:3px solid #fff}</style></head><body><div id="app"><div id="bar"><i></i></div></div>
+<script>
+/* ===== EDIT ME: names, photos, songs, game lines, prizes, note ===== */
+const CFG={
+ him:"[HIS NAME]", me:"[YOUR NAME]", start:[2023,11,3], /* month is 0-based: 11 = December */
+ dayone:"", /* photo for the Dec 3, 2023 slide: a URL or data: URI */
+ songs:[ /* [title, artist, why it’s for him, Spotify link, photo (cover) URL or data: URI], shown #5 down to #1 */
+  ["[Song title #5]","[Artist]","[Why this song is for you]","#",""],
+  ["[Song title #4]","[Artist]","[Why this song is for you]","#",""],
+  ["[Song title #3]","[Artist]","[Why this song is for you]","#",""],
+  ["[Song title #2]","[Artist]","[Why this song is for you]","#",""],
+  ["[Song title #1]","[Artist]","[Why this song is for you]","#",""]],
+ senders:[ /* [message text, 1 if HE sent it / 0 if YOU sent it] — real lines from your chat, swap freely */
+  ["I WANNNAAAAAA BE TWIRLED I WANNNNAA PUT MY HAND ON TUMHARA WAIST",1],
+  ["AB TUM ROZ RAAT MUJHE LORI GAAKE SULAO",0],
+  ["you are my sweeetest cutest pookiee woookiee smoooshie",1],
+  ["wake up no cutu i miss you so much i wanna hug you and i wanna kiss you and i wanna annoy you to deathhh",0],
+  ["and I’ll read everything you write forever",1],
+  ["alsoo i galti sey commited a passsword 👍",1]],
+ prizes:["[Date night, his pick]","[One very long hug]","[Breakfast in bed]","[Movie night, he picks]","[A small surprise]","[I cook, you pick]"],
+ music:[ /* [first slide it plays from, mp3 path, label]. Put your files in a music folder. Each entry plays until the next one starts. */
+  [0,"music/01-lover.mp3","Lover, Taylor Swift"],[7,"music/02-shake-it-off.mp3","Shake It Off, Taylor Swift"],[16,"music/03-paper-rings.mp3","Paper Rings, Taylor Swift"],[23,"music/04-cruel-summer.mp3","Cruel Summer, Taylor Swift"],[25,"music/05-enchanted.mp3","Enchanted, Taylor Swift"],[30,"music/06-daylight.mp3","Daylight, Taylor Swift"]],
+ note:"[Write your closing note here]"};
+/* ===== data from your chat (Sep 16, 2023 to Nov 28, 2026) ===== */
+const M=[2270,12806,15125,26459,15621,16927,17184,19967,32436,29766,40848,14538,27156,22459,21712,19389,20919,18459,15389,16699,17096,5088,1822,10610,11067,10798,9575,12449,13789,10741,11326,13378,6052,2734,2528,11899,10164,10575,7926];
+const HR=[54193,40276,21398,9576,4438,1759,1416,2467,4979,9513,16365,24805,28532,32279,26943,25227,24157,32403,35435,33345,26032,32579,45123,52506];
+const HL=[["🫂 hugs",2835,"😭 crying faces",39146],["😭 crying faces",39146,"“cutu”",18000],["“cutu”",18000,"“I love you” + “I wuvs u”",11233],["Good mornings",1476,"Photos and videos shared",13509]];
+const $=(s,r=document)=>r.querySelector(s),fmt=v=>Math.round(v).toLocaleString("en-US");
+const T=["--a:#160a2b;--b:#6a2cf0;--c:#ff2bd1;--t:#fff;--x:#c8ff3d","--a:#03241a;--b:#12b886;--c:#1a73e8;--t:#f2fff8;--x:#ff9be0","--a:#3a0716;--b:#ff3d5a;--c:#ff9f1c;--t:#fff6ee;--x:#ffe66d","--a:#061a4a;--b:#3a86ff;--c:#8338ec;--t:#fff;--x:#7cf5d4","--a:#ff6a3d;--b:#ffb703;--c:#e63946;--t:#220a2e;--x:#2a0845","--a:#ffd1e3;--b:#ff8fb8;--c:#b79cff;--t:#3a0a2a;--x:#d6165c"];
+let score=0,QN=0,cur=0;
+const sz=b=>b.length>11?" sm":b.length>6?" md":"";const st=(k,b,c,n)=>({h:`<div class=k>${k}</div><div class="big${sz(b)}"${n?` data-n=${n}`:""}>${b}</div><div class=c>${c}</div>`});
+const qz=(q,o,a,r)=>{QN++;return{h:`<div class=k>Quick quiz</div><div class=mid>${q}</div><div class=g>${o.map((x,i)=>`<button class=o data-i=${i}><b>${"ABC"[i]}</b>${x}</button>`).join("")}</div><div class=c></div>`,q:{a,r}}};
+const ph=p=>`<div class=ph style="${p?`background-image:url('${p}')`:""}">${p?"":"📷 Add your photo"}</div>`;
+const {him,me}=CFG;
+const S=[
+{h:`<div class=k>${me} &amp; ${him}</div><div class="big hero">Our 3 years,<br>Wrapped.</div><div class=c>Dec 3, 2023 to Dec 3, 2026</div><div class=hint>Tap to begin</div>`},
+{h:`<div class=k>It has been…</div><div class=t>${["Years","Days","Hours","Min","Sec"].map((u,i)=>`<div><b id=t${i}>0</b><small>${u}</small></div>`).join("")}</div><div class=c>since we became us<br>Dec 3, 2023</div>`},
+qz("What were our very first words?",["“hey are you free?”","“works?”","“hiii”"],1,"“works?”, about a ppt, on Sep 16, 2023."),
+st("It started on Sep 16, 2023","“works?”","A message about a ppt. Nobody knew what it would turn into."),
+st("Before day one","78 days","of texting and 30,000+ messages before we were official.",78),
+qz("Who said “I love you” first?",[me,him,"At the same time"],1,`${him} did, on Nov 26, 2023. A week before we were official.`),
+{h:`<div class=k>Dec 3, 2023</div>${ph(CFG.dayone)}<div class=mid>Day one</div><div class=c>Officially us.</div>`},
+{h:`<div class=k>We sent each other</div><div class=scr><div class=n>585,746</div><canvas></canvas></div><div class=c>messages. Scratch to reveal.<br>That’s 2.4 million words, about 30 novels.</div>`,i:e=>scr(e)},
+st("Showing up","1,160 / 1,170","days with at least one message between us."),
+{h:`<div class=k>Messages per month</div><div class=ch>${M.map((v,i)=>`<i${v==40848?" class=pk":""} style="height:${v/408.48}%;--i:${i}"></i>`).join("")}</div><div class=c>Sep 2023 to Nov 2026. The peak was July 2024.</div>`},
+qz("Which month did we text the most?",["July 2024","May 2024","December 2023"],0,"July 2024, with 40,848 messages."),
+{h:`<div class=k>Higher or lower</div><div class=g></div>`,i:e=>hol(e)},
+{h:`<div class=k>Our night-owl hours</div><div class=ch>${HR.map((v,i)=>`<i${v==52506?" class=pk":""} style="height:${v/525.06}%;--i:${i}"></i>`).join("")}</div><div class=c>22% of everything was sent between midnight and 5 AM. 392 days included a 3 AM message.</div>`},
+st("Longest sitting","13.5 hrs","talking with no real break (1,593 messages). Our fastest burst: 153 messages in one minute."),
+qz("How many days in a row did we text?",["120","1,170","647"],2,"647 days, from Sep 23, 2023 to Jun 30, 2025."),
+st("The streak","647 days","with a message every single day.",647),
+qz("Who texts first more often?",[me,him],1,`${him}: 663 days to ${me}’s 497.`),
+{h:`<div class=k>The language of our love</div><div class=w>${[["love",36],["cutu",36],["hehe",28],["wuvs u",26],["shush",22],["baby",24],["mwuah",20],["kuchupuchu",22],["okieee",18],["sweetie pie",18],["cutu pie",16],["omg",16]].map(([w,s])=>`<span style="font-size:${s}px">${w}</span>`).join("")}</div><div class=c>The words only we use.</div>`},
+qz("Who first said “cutu”?",[him,me],1,`${me}, on Oct 8, 2023. ${him} said “baby” first, the day before.`),
+st("Nicknames","18,000","times “cutu” (said almost equally by both of us), plus baby, kuchupuchu and the “pie” family.",18000),
+{h:`<div class=k>“I love you” and “I wuvs u”</div><div class=big data-n=11233>11,233</div><div class=sp><div style="flex:5599;background:#1db954">${him}<br>5,599</div><div style="flex:5634;background:#ff4ecd">${me}<br>5,634</div></div><div class=c>Split almost perfectly down the middle.</div>`},
+st("Top emoji","😭 39,000","crying faces. And 🫂 2,800 hugs."),
+{h:`<div class=k>Guess the sender</div><div class=g></div>`,i:e=>gs(e)},
+st("The quiet months","40,848 → 1,822","messages in July 2024 vs July 2025, once we lived together. Turns out we didn’t need to text."),
+{h:`<div class=k>Now for the music</div><div class=big style="font-size:44px">Songs I’d dedicate to you</div><div class=c>Counting down from #5.</div>`},
+...CFG.songs.map(([t,a,n,u,p],i)=>({h:`<div class=k>Song #${5-i}</div><div class=vin>${ph(p)}</div><div class=mid>${t}</div><div class=c>${a}<br>${n}</div><a class=sl href="${u}" target=_blank rel=noopener>▶ Play on Spotify</a><div class=pb><i></i></div>`})),
+{h:`<div class=k>Your quiz score</div><div class=big id=sc>0</div><div class=c></div>`,a:e=>{$("#sc").textContent=`${score}/${QN}`;score>=QN/2&&conf(e);$(".c",e).textContent=score>=QN-1?"You know us too well.":score>=QN/2?"Not bad. Still learning us.":"We need more dates."}},
+{h:`<div class=k>One last thing</div><div class=g><div class=pt></div><div class=wr><canvas class=wh></canvas></div><button class=o>Spin the wheel</button></div><div class=c>Your prize is…</div>`,i:e=>wheel(e)},
+{h:`<div class="big sm">Happy 3rd anniversary, ${him}</div><div class=c>${CFG.note}</div><button class=o>Replay</button>`,i:e=>$("button",e).onclick=()=>go(0),a:e=>conf(e)}
+];
+const app=$("#app"),bar=$("#bar i"),E=S.map((d,i)=>{const e=document.createElement("section");e.className="s";e.style.cssText=T[i%T.length];e.innerHTML=d.h;[...e.children].forEach((c,j)=>c.style.setProperty("--n",j));app.appendChild(e);return e});
+function tick(){const n=new Date(),[y,m,d]=CFG.start;let Y=n.getFullYear()-y,a=new Date(y+Y,m,d);if(a>n){Y--;a=new Date(y+Y,m,d)}let ms=n-a;const D=Math.floor(ms/864e5);ms%=864e5;[Y,D,Math.floor(ms/36e5),Math.floor(ms%36e5/6e4),Math.floor(ms%6e4/1e3)].forEach((v,i)=>{const el=$("#t"+i);if(el)el.textContent=v})}
+setInterval(tick,1000);tick();
+function cu(e){e.querySelectorAll("[data-n]").forEach(el=>{const n=+el.dataset.n,s=el.textContent.replace(/^[\d,.]+/,""),t0=performance.now();requestAnimationFrame(function f(t){const p=Math.min(1,(t-t0)/1200);el.textContent=fmt(n*p)+s;if(p<1)requestAnimationFrame(f)})})}
+function go(i){i=Math.max(0,Math.min(S.length-1,i));cur=i;if(i>0&&!asked){asked=1;on=true;mb.textContent="🔊"}mus(i);E.forEach((e,j)=>e.classList.toggle("on",j==i));bar.style.width=(i+1)/S.length*100+"%";const d=S[i];if(!d.z){d.z=1;d.i&&d.i(E[i])}d.a&&d.a(E[i]);cu(E[i])}
+app.addEventListener("click",e=>{
+ const b=e.target.closest("button[data-i]");
+ if(b){const s=b.closest(".s"),d=S[E.indexOf(s)],i=+b.dataset.i;if(!d.q||s.dataset.a)return;s.dataset.a=1;if(i==d.q.a)score++;s.querySelectorAll("button").forEach((x,j)=>{if(j==d.q.a)x.classList.add("ok");else if(j==i)x.classList.add("no")});$(".c",s).textContent=(i==d.q.a?"Yes! ":"Not quite. ")+d.q.r;return}
+ if(e.target.closest("button,a,canvas"))return;
+ const r=app.getBoundingClientRect();go(cur+(e.clientX-r.left<r.width/3?-1:1))});
+addEventListener("keydown",e=>{if(e.key=="ArrowRight")go(cur+1);if(e.key=="ArrowLeft")go(cur-1)});
+let x0=null;app.addEventListener("touchstart",e=>{x0=e.target.closest("canvas")?null:e.touches[0].clientX},{passive:true});
+app.addEventListener("touchend",e=>{if(x0==null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>60)go(cur+(d<0?1:-1))},{passive:true});
+/* ===== games ===== */
+function scr(e){const cv=$("canvas",e),x=cv.getContext("2d");cv.width=300;cv.height=110;const g=x.createLinearGradient(0,0,300,0);g.addColorStop(0,"#c4c4d4");g.addColorStop(.5,"#fafafa");g.addColorStop(1,"#a6a6bc");x.fillStyle=g;x.fillRect(0,0,300,110);x.fillStyle="#6b6b80";x.font="700 20px system-ui,sans-serif";x.textAlign="center";x.fillText("Scratch here ✨",150,62);
+ let d=0;const p=v=>{const r=cv.getBoundingClientRect();x.globalCompositeOperation="destination-out";x.beginPath();x.arc((v.clientX-r.left)*300/r.width,(v.clientY-r.top)*110/r.height,18,0,7);x.fill()};
+ cv.onpointerdown=v=>{d=1;cv.setPointerCapture(v.pointerId);p(v)};cv.onpointermove=v=>d&&p(v);
+ cv.onpointerup=()=>{d=0;const a=x.getImageData(0,0,300,110).data;let c=0;for(let i=3;i<a.length;i+=64)if(!a[i])c++;if(c>a.length/64*.45)cv.style.opacity=0}}
+function hol(e){let r=0,sc=0;const g=$(".g",e);
+ const show=()=>{if(r>=HL.length){g.innerHTML=`<div class=big>${sc}/${HL.length}</div><div class=c>${sc>2?"You know us too well.":"Not bad. Still learning us."}</div>`;return}const[a,av,b]=HL[r];g.innerHTML=`<div class=c>${a}: <b>${fmt(av)}</b></div><div class=mid>Is ${b} higher or lower?</div><button class=o data-v=1>Higher</button><button class=o data-v=0>Lower</button><div class=c></div>`};
+ g.onclick=v=>{const b=v.target.closest("[data-v]");if(!b||g.dataset.l)return;g.dataset.l=1;const[,av,n,bv]=HL[r],ok=(bv>av)==(b.dataset.v==1);if(ok)sc++;b.classList.add(ok?"ok":"no");g.lastElementChild.textContent=`${n}: ${fmt(bv)} ${ok?"✓":"✗"}`;setTimeout(()=>{r++;g.dataset.l="";show()},1600)};show()}
+function gs(e){let r=0,sc=0;const g=$(".g",e),L=CFG.senders;
+ const show=()=>{if(r>=L.length){g.innerHTML=`<div class=big>${sc}/${L.length}</div><div class=c>Who knows our words best?</div>`;return}g.innerHTML=`<div class=mid>“${L[r][0]}”</div><div class=k>Who sent it?</div><button class=o data-v=1>${him}</button><button class=o data-v=0>${me}</button><div class=c></div>`};
+ g.onclick=v=>{const b=v.target.closest("[data-v]");if(!b||g.dataset.l)return;g.dataset.l=1;const ok=+b.dataset.v==L[r][1];if(ok)sc++;b.classList.add(ok?"ok":"no");g.lastElementChild.textContent=ok?"Yes!":"Not quite.";setTimeout(()=>{r++;g.dataset.l="";show()},1400)};show()}
+function wheel(e){const cv=$("canvas",e),x=cv.getContext("2d"),P=CFG.prizes,n=P.length,a=2*Math.PI/n,C=["#ffd23f","#ff6b9d","#7cf5d4","#9b8cff","#ff9a3c","#8de14d"];cv.width=cv.height=300;
+ P.forEach((p,i)=>{x.beginPath();x.moveTo(150,150);x.arc(150,150,148,-Math.PI/2+i*a,-Math.PI/2+(i+1)*a);x.fillStyle=C[i%C.length];x.fill();x.strokeStyle="#fff";x.lineWidth=3;x.stroke();x.save();x.translate(150,150);x.rotate(-Math.PI/2+(i+.5)*a);x.fillStyle="#1b0b2e";x.font="800 13px system-ui,sans-serif";x.textAlign="right";x.fillText(p.slice(0,24),138,4);x.restore()});
+ let rot=0;$("button",e).onclick=()=>{rot+=1440+Math.random()*360;cv.style.transform=`rotate(${rot}deg)`;$(".c",e).textContent="Spinning…"};
+ cv.addEventListener("transitionend",()=>{$(".c",e).textContent="🎁 "+P[Math.floor(((360-rot%360)%360)/(360/n))];conf(e)})}
+let asked=0,on=false,ai=0,trk="",AC;const AU=[new Audio(),new Audio()],mb=document.createElement("button");
+AU.forEach(a=>{a.loop=true;a.volume=0});mb.id="mb";mb.textContent="🔇";mb.setAttribute("aria-label","Toggle music");mb.hidden=!CFG.music.length;app.appendChild(mb);
+function fade(a,to){const f=a.volume,t0=performance.now();requestAnimationFrame(function s(t){const p=Math.min(1,(t-t0)/1200);a.volume=f+(to-f)*p;if(p<1)requestAnimationFrame(s);else if(!to)a.pause()})}
+function syn(k){syn.stop&&syn.stop();const g=AC.createGain();g.gain.value=0;g.connect(AC.destination);g.gain.linearRampToValueAtTime(.16,AC.currentTime+2);
+ const tr=2**([0,2,-3,4,-1,5][k%6]/12),P=[[261.63,329.63,392,493.88],[220,261.63,329.63,392],[174.61,220,261.63,329.63],[196,246.94,293.66,392]],dt=[4,3,5,3.5,4,3][k%6];let n=0;
+ const play=()=>{const t=AC.currentTime,ch=P[n++%4];ch.forEach((f,j)=>{const o=AC.createOscillator(),e=AC.createGain();o.type=j%2?"triangle":"sine";o.frequency.value=f*tr*(j==3?2:1);e.gain.setValueAtTime(0,t);e.gain.linearRampToValueAtTime(.5/ch.length,t+dt*.35);e.gain.linearRampToValueAtTime(0,t+dt*1.2);o.connect(e);e.connect(g);o.start(t);o.stop(t+dt*1.25)})};
+ play();const id=setInterval(play,dt*1000);syn.stop=()=>{clearInterval(id);g.gain.linearRampToValueAtTime(0,AC.currentTime+1.2);setTimeout(()=>g.disconnect(),1500);syn.stop=null}}
+function mus(i){if(!on)return;AC=AC||new(window.AudioContext||window.webkitAudioContext)();AC.resume();const m=[...CFG.music].reverse().find(x=>x[0]<=i);if(!m||m[1]==trk)return;trk=m[1];fade(AU[ai],0);syn.stop&&syn.stop();ai^=1;const a=AU[ai],k=CFG.music.indexOf(m);a.src=m[1];a.play().then(()=>fade(a,.5)).catch(()=>syn(k))}
+mb.onclick=()=>{on=!on;mb.textContent=on?"🔊":"🔇";if(on){trk="";mus(cur)}else{AU.forEach(a=>fade(a,0));syn.stop&&syn.stop()}};
+document.addEventListener("visibilitychange",()=>{if(document.hidden){AU[ai].pause();AC&&AC.suspend()}else if(on&&trk){AU[ai].play().catch(()=>{});AC&&AC.resume()}});
+function conf(e){for(let i=0;i<28;i++){const f=document.createElement("i");f.className="cf";f.textContent=["💖","✨","💜","🎉"][i%4];f.style.cssText=`left:${Math.random()*100}%;--w:${Math.random()*1.2}s;--r:${Math.random()*360}deg;font-size:${14+Math.random()*16}px`;e.appendChild(f);setTimeout(()=>f.remove(),4500)}}
+go(0);
+</script></body></html>
